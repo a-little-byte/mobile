@@ -172,7 +172,7 @@ export default function HomeScreen() {
               icon={feature.icon}
               title={t(`translation:home.features.${feature.name}.title`)}
               description={t(
-                `translation:home.features.${feature.name}.description`
+                `translation:home.features.${feature.name}.description`,
               )}
             />
           ))}

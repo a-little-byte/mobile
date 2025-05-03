@@ -71,7 +71,7 @@ const Typewriter = ({
     // Set the typing/deleting interval
     const timeoutId = setTimeout(
       handleTyping,
-      isDeleting ? deleteSpeed : typeSpeed
+      isDeleting ? deleteSpeed : typeSpeed,
     );
 
     // Cleanup timeout on component unmount or dependency change
